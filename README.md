@@ -26,6 +26,18 @@ Directory Structure:
 - `routes` - Defines all of the routes for the entire application.
 - `tests`  - Contains all of the functional tests for the API endpoints.
 
+## Authentication Strategy
+
+The application uses Basic Authentication, with a provided username
+and password from the client to authenticate users appropriately.
+
+Once you run the `schema.sql` file. Your local database will be populated
+with one auctioneer and one participant. The hashed passwords are stored in
+the database, and all of the passwords - without encryption are viewable
+in the `tests/utils.js` file.
+
+The database seeds 1 auction, 1 auctioneer, 1 participant, and 8 items.
+
 ## API Documentation
 
 API documentation for all the endpoints is hosted via the [Hapi Swagger JSON plugin](https://github.com/glennjones/hapi-swagger).
