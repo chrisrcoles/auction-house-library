@@ -31,14 +31,3 @@ the price sold and to whom it was sold to.
  auction is deemed as a success otherwise it's marked
  as failure. The item sold should be no longer
  available for future auctions.
-
-
-Viable languages:
-- Ruby
-- Python
-- Node.JS
-- Scala
-- Java
-- Go
-- C/C++
-
